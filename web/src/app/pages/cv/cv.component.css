@@ -1,0 +1,130 @@
+.content{
+    padding: 70px 0 35px;
+    background: url(../../../assets/imgs/candidate-bg-header.jpg);
+    background-color:rgb(229, 235, 245);
+    text-align: center;
+    background-size: 100% 100%
+}
+
+.content h5{
+    margin: 10px;
+}
+.label{
+    padding: 3px 20px;
+    display: inline-block;
+    background: #1967d226;
+    color: #696969;
+    margin: 0 5px;
+    margin-top: 10px;
+    border-radius: 30px;
+    font-size: 14px;
+}
+.label:hover{
+    background: rgb(38, 38, 38);
+    cursor: pointer;
+    color: white;
+}
+.tag-cv{
+    display: inline-block;
+    align-items: center;
+    margin: 2px 0;
+    color: #696969; 
+    font-size: 14px;
+    margin: 0 20px;
+}
+.salary i{
+    color: green;
+}
+.accept{
+    background: rgb(25 103 210);
+    border: 2px solid rgb(25 103 210);
+    color: #fff !important;
+    display: inline-block;
+}
+.deny{
+    /* background: rgb(25 103 210);
+    border: 2px solid rgb(25 103 210); */
+    color:black ;
+    font-weight: 700;
+    display: inline-block;
+
+}
+.avatar{
+    background-image: url(../../../assets/imgs/51c2d5.png);
+    background-size: 100% ;
+    padding: 40px 0px 25px;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.avatar img{
+    border: 3px solid white ;
+    border-radius: 100%;
+    justify-content: end;
+    display: block;
+    margin: 20px 0;
+    margin-left:auto;
+    height: 120px;
+}
+.info{
+    padding: 40px 50px 25px 50px ;
+}
+.wrap-contact{
+    background:rgb(218 253 255);
+    margin-top: 15px;
+    padding: 15px 30px;
+    border-radius: 20px;
+}
+.wrap-contact p{
+    font-size: 14px;
+    display: inline-flex;
+    margin: 8px;
+}
+.wrap-contact .icon{
+    border-radius: 100%;
+    color: white;
+    background: rgb(81, 194, 213);
+    display: inline-block;
+    height: 26px;
+    width: 26px; 
+    text-align: center;
+    margin-right: 10px;
+    
+}
+.name{
+    padding: 10px 20px;
+    margin: 15px;
+}
+.intro p{
+    padding: 15px 30px;
+    font-size: 14px;
+}
+.cv-label{
+    padding: 0;
+    border-left:#51c2d5 solid 4px;
+    height: 41px;
+}
+.cv-label b{
+    background: #51c2d5;
+    padding: 10px 100px 10px 10px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    color: white;
+    border-left: 4px solid white;
+    display: inline-block;
+    font-size: 14px;
+}
+.cv-text{
+    font-size: 14px;
+}
+.cv-text p{
+    color: #696969;
+    font-size: 14px;
+    padding: 10px;
+    margin: 0;
+}
+.cv-text b{
+    color: black;
+}
+.detail{
+    margin: 10px 0;
+}
