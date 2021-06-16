@@ -8,6 +8,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { ListComponent } from './pages/list/list.component';
 import { CvListComponent } from './components/cv-list/cv-list.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { FormCvComponent } from './pages/form-cv/form-cv.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MenuComponent } from './components/menu/menu.component';
     HomeComponent,
     ListComponent,
     CvListComponent,
-    MenuComponent
+    MenuComponent,
+    FormCvComponent
   ],
   imports: [
     BrowserModule,

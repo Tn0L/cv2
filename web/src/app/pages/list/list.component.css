@@ -1,0 +1,124 @@
+/* title */
+.content{
+    padding: 45px 0;    
+    background: url(../../../assets/imgs/candidate-bg-header.jpg);
+    background-color:rgb(229, 235, 245);
+    text-align: center;
+}
+.content h2{
+    color: #202124;
+    margin-bottom: 10px;
+}
+.content p{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.content a{
+    color: #202124;
+    text-decoration: none;
+}
+
+/* short-cv */
+.avatar{
+    height: 100%;
+}
+.img img{
+    height: 100%;
+    border-radius: 100%;
+}
+.wrap-list{
+    padding:0 15px;
+}
+.name{
+    font-size: 16px;
+    color: #202124;
+    margin: 2px 0;
+}
+.tag{
+    display: inline-block;
+}
+.short-info{
+    transition: all 0.3s ease-in-out 0s;
+    border: 1px solid #ECEDF2;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+.short-info:hover{
+    border: 1px solid #ECEDF2;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 30px 0;
+    box-shadow: 0 6px 15px 0 rgb(64 79 104 / 5%);
+}
+.job-t{
+    display: inline-block;
+    align-items: center;
+    margin: 2px 0;
+    color: rgb(25 103 210);
+    margin-right: 25px;
+    font-size: 14px;
+
+}
+.job-t:hover{
+    color: #202124;
+    cursor: pointer;
+}
+.salary{
+    display: inline-block;
+    align-items: center;
+    margin: 2px 0;
+    color: #696969; 
+    margin-right: 25px;
+    font-size: 14px;
+}
+.salary i{
+    color: green;
+}
+.salary:hover{
+    color: #202124;
+    cursor: pointer;
+}
+.label{
+    padding: 3px 20px;
+    display: inline-block;
+    background: #F0F5F7;
+    color: #696969;
+    margin: 0 5px;
+    margin-top: 10px;
+    border-radius: 30px;
+    font-size: 14px;
+}
+.label:hover{
+    background: rgb(38, 38, 38);
+    cursor: pointer;
+    color: white;
+}
+.view{
+    text-align: center;
+    display: flex;
+    align-self: start;
+    height: 100%;
+}
+.view a{
+    text-decoration: unset;
+    cursor: pointer;
+    background: rgba(25, 103, 210, 0.07);
+    border-radius: 8px;
+    padding: 10px 10px;
+    color: rgb(95, 149, 224);
+}
+.view a:hover{
+    background: rgb(25 103 210);
+    color: white;
+}
+.flag-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.flag{
+    margin: 5px;
+    height: 16px;
+    display: inline-flex;
+}
