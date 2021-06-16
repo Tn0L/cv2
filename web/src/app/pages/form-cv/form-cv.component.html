@@ -1,6 +1,6 @@
-<form>
+<form class="needs-validation" novalidate>
     <div class="content">
-        <input type="text" class="title" placeholder="Tiêu đề">
+        <input type="text" class="form-tittle" placeholder="Tiêu đề" required>
         <!-- <h5>こんにちは</h5> -->
         <div class="row justify-content g-0">
             <div class="col">
@@ -21,7 +21,7 @@
                     <div class="col-9">
                         <div class="info">
                             <div class="name">
-                                <input type="text">
+                                <input type="text" placeholder="Họ và Tên" class="form-name">
                                 <!-- <h3>Nguyễn Văn A</h3> -->
                             </div>
                             <div class="wrap-contact row">
@@ -29,35 +29,35 @@
                                     <div class="icon">
                                         <i class="fas fa-male"></i>
                                     </div>
-                                    <select>
+                                    <select class="form-gender">
+                                        <option>Khác</option>
                                         <option>Nam</option>
                                         <option>Nữ</option>
-                                        <option>Khác</option>
                                     </select>
                                 </div>
                                 <div class="col-7">
                                     <div class="icon">
                                         <i class="fas fa-calendar-week"></i>
                                     </div>
-                                    <input type="text">
+                                    <input type="date" placeholder="Ngày sinh" class="form-birth">
                                 </div>
                                 <div>
                                     <div class="icon">
                                         <i class="fas fa-phone"></i>
                                     </div>
-                                    <input type="text">
+                                    <input type="text" class="form-phone" placeholder="Số điện thoại">
                                 </div>
                                 <div>
                                     <div class="icon">
                                         <i class="fas fa-envelope"></i>
                                     </div>
-                                    <input type="text">
+                                    <input type="email" class="form-email" placeholder="Email" >
                                 </div>
                                 <div >
                                     <div class="icon">
                                         <i class="fas fa-location-arrow"></i>
                                     </div>
-                                    <input type="text">
+                                    <input type="text" class="form-ad" placeholder="Địa chỉ">
                                 </div>
                             </div>
                         </div>
@@ -65,7 +65,7 @@
                 </div>
                 <div class="intro row justify-content-end">
                     <div class="col-9">
-                        <Textarea></Textarea>
+                        <Textarea placeholder="Giới thiệu bản thân"></Textarea>
                     </div>
                 </div>
                 <div class="col-6">
