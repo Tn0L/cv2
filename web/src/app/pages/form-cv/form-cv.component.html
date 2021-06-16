@@ -1,6 +1,7 @@
-<form class="needs-validation" novalidate>
+
+<form>
     <div class="content">
-        <input type="text" class="form-tittle" placeholder="Tiêu đề" required>
+        <input type="text" class="form-tittle" placeholder="Tiêu đề">
         <!-- <h5>こんにちは</h5> -->
         <div class="row justify-content g-0">
             <div class="col">
@@ -15,7 +16,13 @@
                 <div class="head-cv row">
                     <div class="col-3">
                         <div class="avatar">
-                            <input type="file">
+                            <main>
+                                <input type="file" name="image" id="image" accept="image/*" />
+                                <div id="preview">
+                                    <div id="avatar"></div>
+                                </div>
+                            </main>
+                
                         </div>
                     </div>
                     <div class="col-9">
@@ -147,4 +154,5 @@
             </div>
         </div>
     </div>
+    
 </form>
