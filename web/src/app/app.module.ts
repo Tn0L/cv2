@@ -19,6 +19,7 @@ import { ExploreComponent } from './components/explore/explore.component';
 import { CompanyComponent } from './components/company/company.component';
 import { MainAdminComponent } from './components/main-admin/main-admin.component';
 import { MainBussinesComponent } from './components/main-bussines/main-bussines.component';
+import { ManageComponent } from './components/manage/manage.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { MainBussinesComponent } from './components/main-bussines/main-bussines.
     ExploreComponent,
     CompanyComponent,
     MainAdminComponent,
-    MainBussinesComponent
+    MainBussinesComponent,
+    ManageComponent
   ],
   imports: [
     BrowserModule,

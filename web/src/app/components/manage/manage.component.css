@@ -1,0 +1,20 @@
+.content{
+    padding: 70px 0 35px;
+    background: url(../../../assets/imgs/candidate-bg-header.jpg);
+    background-color:rgb(229, 235, 245);
+    text-align: center;
+    background-size: 100% 100%
+}
+
+.content h5{
+    margin: 10px;
+}
+
+.manage{
+    background: #f0f0f0;
+    width: 100%;
+    
+}
+.manage img{
+    width: 110px;
+}
