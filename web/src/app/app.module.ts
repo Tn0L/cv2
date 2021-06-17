@@ -14,6 +14,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { BusinessComponent } from './pages/business/business.component';
 import { AdMenuComponent } from './components/ad-menu/ad-menu.component';
 import { BsmenuComponent } from './components/bsmenu/bsmenu.component';
+import { MainComponent } from './components/main/main.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { BsmenuComponent } from './components/bsmenu/bsmenu.component';
     FooterComponent,
     BusinessComponent,
     AdMenuComponent,
-    BsmenuComponent
+    BsmenuComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
