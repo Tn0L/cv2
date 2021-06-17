@@ -9,6 +9,11 @@ import { ListComponent } from './pages/list/list.component';
 import { CvListComponent } from './components/cv-list/cv-list.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { FormCvComponent } from './pages/form-cv/form-cv.component';
+import { AdminComponent } from './pages/admin/admin.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { BusinessComponent } from './pages/business/business.component';
+import { AdMenuComponent } from './components/ad-menu/ad-menu.component';
+import { BsmenuComponent } from './components/bsmenu/bsmenu.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +23,12 @@ import { FormCvComponent } from './pages/form-cv/form-cv.component';
     ListComponent,
     CvListComponent,
     MenuComponent,
-    FormCvComponent
+    FormCvComponent,
+    AdminComponent,
+    FooterComponent,
+    BusinessComponent,
+    AdMenuComponent,
+    BsmenuComponent
   ],
   imports: [
     BrowserModule,
