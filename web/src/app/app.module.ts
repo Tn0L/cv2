@@ -15,6 +15,10 @@ import { BusinessComponent } from './pages/business/business.component';
 import { AdMenuComponent } from './components/ad-menu/ad-menu.component';
 import { BsmenuComponent } from './components/bsmenu/bsmenu.component';
 import { MainComponent } from './components/main/main.component';
+import { ExploreComponent } from './components/explore/explore.component';
+import { CompanyComponent } from './components/company/company.component';
+import { MainAdminComponent } from './components/main-admin/main-admin.component';
+import { MainBussinesComponent } from './components/main-bussines/main-bussines.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +34,11 @@ import { MainComponent } from './components/main/main.component';
     BusinessComponent,
     AdMenuComponent,
     BsmenuComponent,
-    MainComponent
+    MainComponent,
+    ExploreComponent,
+    CompanyComponent,
+    MainAdminComponent,
+    MainBussinesComponent
   ],
   imports: [
     BrowserModule,

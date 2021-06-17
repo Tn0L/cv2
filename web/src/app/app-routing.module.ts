@@ -3,9 +3,11 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { AdminComponent } from './pages/admin/admin.component';
 import { BusinessComponent } from './pages/business/business.component';
-import { CvComponent } from './pages/cv/cv.component';
 import { MainComponent } from './components/main/main.component';
 import { FormCvComponent } from './pages/form-cv/form-cv.component';
+import { ListComponent } from './pages/list/list.component';
+import { MainBussinesComponent } from './components/main-bussines/main-bussines.component';
+import { MainAdminComponent } from './components/main-admin/main-admin.component';
 
 const routes: Routes = 
   [
@@ -14,7 +16,7 @@ const routes: Routes =
       component: HomeComponent,
       children: [
         {
-          path: 'cv',
+          path: '',
           component: MainComponent,
         },
       ]
@@ -22,12 +24,34 @@ const routes: Routes =
     {
       path: 'client',
       component: HomeComponent,
- 
       children: [
         {
           path: 'cv',
           component: FormCvComponent,
-          outlet: 'client',
+        },
+      ]
+    },
+    {
+      path: 'business',
+      component: BusinessComponent,
+      children: [
+        {
+          path: '',
+          component: MainBussinesComponent,
+        },
+        {
+          path: 'listCv',
+          component: ListComponent
+        }
+      ]
+    },
+    {
+      path: 'admin',
+      component: AdminComponent,
+      children: [
+        {
+          path: '',
+          component: MainAdminComponent,
         },
       ]
     },
