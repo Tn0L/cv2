@@ -13,8 +13,47 @@
 .manage{
     background: #f0f0f0;
     width: 100%;
-    
+    padding: 20px 10px;
+    margin: 10px 0;
 }
 .manage img{
-    width: 110px;
+    width: 100%;
+}
+.cv-label{
+    margin-top: 20px;
+}
+.label{
+    padding: spx 10px;
+    background: white;
+    font-size: 12px;
+    color: #666;
+    border-radius: 2px;
+    margin: 0 5px;
+    text-align: center;
+}
+.cv-name{
+    padding: 5px 0 ;
+}
+.name{
+    margin: 10px 0;
+    text-align: center;
+}
+.title{
+    padding: 10px ;
+    color: #23527c;
+}
+.title p{
+    margin: 0;
+}
+.new{
+    text-align: end;
+    padding: 15px 0;
+}
+
+.create a{
+    color: white;
+    background: #23527c;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 4px;
 }
